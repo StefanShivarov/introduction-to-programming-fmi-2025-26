@@ -165,3 +165,9 @@ int main() {
 	return 0;
 }
 ```
+---
+
+### Търсене на елементи в масив
+
+- [Linear search](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/blob/main/Week%2006/Arrays/linearSearch.cpp)
+- [Binary search](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/blob/main/Week%2006/Arrays/binarySearch.cpp)
