@@ -47,5 +47,5 @@ void readSquareMatrix(int matrix[][MAX_SIZE], unsigned size) {
 int main() {
     int matrix[MAX_SIZE][MAX_SIZE];
     readSquareMatrix(matrix, 4);
-    printSedlova(matrix, 4);
+    printSaddlePointCoordinates(matrix, 4);
 }
