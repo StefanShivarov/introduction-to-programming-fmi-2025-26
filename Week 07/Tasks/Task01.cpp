@@ -6,14 +6,6 @@ using std::endl;
 
 const int MAX_SIZE = 50;
 
-int max(int a, int b) {
-    return a > b ? a : b;
-}
-
-int min(int a, int b) {
-    return a < b ? a : b;
-}
-
 unsigned findMaxInRowIndex(const int matrix[][MAX_SIZE], unsigned size, unsigned rowIndex) {
     unsigned maxNumIndex = 0;
     for (unsigned i = 1; i < size; i++) {
