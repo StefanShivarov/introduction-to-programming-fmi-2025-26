@@ -1,4 +1,4 @@
-# 🔢 **Matrix Explorer** 🔍
+# **Matrix Explorer** 
 
 ## **Overview**
 
@@ -59,18 +59,6 @@ In this project, you will build a program that works with a square matrix of int
   int getMax(const int matrix[][MAX], int n);
   ```
 * Call them in `main()` and display the results.
-
----
-
-### **e. Pointer-Based Access**
-
-* Write a function that prints all elements of the matrix using **pointer arithmetic** instead of array indexing:
-
-  ```cpp
-  void printWithPointers(const int* matrix, int n);
-  ```
-* Compare the output from this function to the output of `printMatrix`.
-  *(Hint: a 2D array is stored in memory row by row, so you can use a single pointer to iterate through all elements.)*
 
 ---
 
