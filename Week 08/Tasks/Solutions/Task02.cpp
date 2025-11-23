@@ -42,7 +42,7 @@ void printSubmatrix(const int matrix[][MAX], unsigned submatrixSize, unsigned st
 
 void printSubmatrixWithHighestAverage(const int matrix[][MAX], unsigned size, unsigned submatrixSize) {
     unsigned maxAvgRow = 0, maxAvgCol = 0;
-    double maxAvg = 0;
+    double maxAvg = -1e18;
 
     for (unsigned i = 0; i <= size - submatrixSize; i++) {
         for (unsigned j = 0; j <= size - submatrixSize; j++) {
