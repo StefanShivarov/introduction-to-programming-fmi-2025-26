@@ -16,7 +16,10 @@ _Материали от УП-практикум на група 5_
 |**[04](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2004)** | Функции |
 | **[05](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2005)** | Функции (продължение). Подаване на аргумент по копие и по референция. Връщане на копие или референция |
 | **[06](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2006)** | Mасиви. Подаване на масиви като аргументи на функция. Достъп и търсене на елементи в масив |
-| **[07](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2006)** | Многомерни масиви. Матрици. Обхождане на матрица |
+| **[07](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2007)** | Многомерни масиви. Матрици. Обхождане на матрица |
+**[08](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2008)** | Матрици (продължение). Подготовка за контролно 2 |
+**[09](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2009)** | Бройни системи. Побитови операции. |
+**[10](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2010)** | Указатели. Адресна аритметика. Символни низове. Операции със символни низове |
 
 
 ## 📅 График на занятията
