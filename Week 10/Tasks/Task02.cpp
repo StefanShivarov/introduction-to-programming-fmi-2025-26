@@ -3,7 +3,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int analyzeArr(const char *str) {
+int analyzeStr(const char *str) {
     if (str == nullptr) {
         return -1;
     }
@@ -27,5 +27,5 @@ int analyzeArr(const char *str) {
 int main() {
     char buff[1024];
     cin.getline(buff, 1024);
-    cout << analyzeArr(buff) << endl;
+    cout << analyzeStr(buff) << endl;
 }
