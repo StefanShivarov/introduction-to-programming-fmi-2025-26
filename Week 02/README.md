@@ -1,6 +1,6 @@
 # Седмица 02 - Git и GitHub. Цикли. Оператори за цикъл. Break и continue.
 
-## [Въведение в Git и GitHub (натисни тук)](http://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/blob/main/Week%2002/git_github.md)
+## [Въведение в Git и GitHub (натисни тук)](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Additional%20materials/Git_Github)
 
 ### Какво е цикъл?
 
