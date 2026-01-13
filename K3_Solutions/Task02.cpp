@@ -9,6 +9,9 @@ const int TWO_DIGIT_NUMS_BYTES_COUNT = 12; // 12 bytes needed to store 90 bits
                                            //(one bit for every two-digit number)
 
 bool checkBit(const unsigned char* bytes, int bytesCount, int pos) {
+    if (bytes == nullptr) {
+        return false;
+    }
     int byteIndex = pos / 8;
     if (byteIndex >= bytesCount) {
         return false;
@@ -18,6 +21,9 @@ bool checkBit(const unsigned char* bytes, int bytesCount, int pos) {
 }
 
 void setBitToOneAtPos(unsigned char* bytes, int bytesCount, int pos) {
+    if (bytes == nullptr) {
+        return;
+    }
     int byteIndex = pos / 8;
     if (byteIndex >= bytesCount) {
         return;
@@ -31,6 +37,9 @@ bool isTwoDigitNumber(int num) {
 }
 
 void extractDigits(int num, unsigned char* digitsBytes) {
+    if (digitsBytes == nullptr) {
+        return;
+    }
     if (num == 0) {
         setBitToOneAtPos(digitsBytes, DIGITS_BYTES_COUNT, 0);
         return;
@@ -74,5 +83,9 @@ void printUniqueRemainders(int n, int k) {
 int main() {
     int n, k;
     cin >> n >> k;
+    if (n < 10 || (k < 2 || k > 9)) {
+        cout << "Invalid input\n";
+        return 1;
+    }
     printUniqueRemainders(n, k);
 }

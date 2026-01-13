@@ -23,6 +23,9 @@ void swap(char& a, char& b) {
 }
 
 int getLengthOfString(const char* str) {
+    if (str == nullptr) {
+        return 0;
+    }
     int len = 0;
     while (str[len] != '\0') {
         len++;
@@ -35,7 +38,7 @@ int min(int a, int b) {
 }
 
 void reverseSubstring(char* str, int from, int to) {
-    if (from >= to) {
+    if (str == nullptr || from >= to) {
         return;
     }
 
@@ -79,7 +82,7 @@ void transformString(char* str, int k) {
 
 int main() {
     char buff[1024];
-    cin >> buff;
+    cin >> buff; // or cin.getline(buff, 1024) if you want to read whitespaces too;
     transformString(buff, 3);
     cout << buff;
 }
