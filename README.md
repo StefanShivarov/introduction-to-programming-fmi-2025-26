@@ -16,4 +16,7 @@ _Материали от УП-практикум на група 5_
 **[08](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2008)** | Матрици (продължение). Подготовка за контролно 2 |
 **[09](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2009)** | Бройни системи. Побитови операции. |
 **[10](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2010)** | Указатели. Адресна аритметика. Символни низове. Операции със символни низове |
-
+**[11](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2011)** | Преговор на материала до контролно 3 |
+**[12](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2012)** | Динамична памет. Stack и Heap. Оператори `new` и `delete`. Memory leak |
+**[13](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2013)** | Рекурсия |
+**[14](https://github.com/StefanShivarov/introduction-to-programming-fmi-2025-26/tree/main/Week%2014)** | Подготовка преди изпит |
